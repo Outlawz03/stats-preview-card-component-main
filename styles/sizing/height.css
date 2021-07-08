@@ -1,3 +1,15 @@
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
 .h-80 {
   height: 20rem;
 }
@@ -29,5 +41,27 @@
 
   .md-h-full {
     height: 100%;
+  }
+
+  .md-h-custom {
+    height: var(--md-height);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg-h-auto {
+    height: auto;
+  }
+
+  .lg-h-50 {
+    height: 50%;
+  }
+
+  .lg-h-full {
+    height: 100%;
+  }
+
+  .lg-h-custom {
+    height: var(--lg-height);
   }
 }

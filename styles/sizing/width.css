@@ -1,3 +1,11 @@
+.w-16 {
+  width: 4rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
 .w-80 {
   width: 20rem;
 }
@@ -46,6 +54,6 @@
   }
 
   .lg-w-custom {
-    width: var(--md-width);
+    width: var(--lg-width);
   }
 }

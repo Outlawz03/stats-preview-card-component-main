@@ -9,3 +9,13 @@
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
+.font-custom {
+  font-family: var(--font);
+}
+
+@media screen and (min-width: 1024px) {
+  .lg-font-custom {
+    font-family: var(--lg-font);
+  }
+}

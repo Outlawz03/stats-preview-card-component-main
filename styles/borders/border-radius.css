@@ -7,9 +7,18 @@
   border-top-right-radius: 0.5rem;  
 }
 
+.rounded-b-lg {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;  
+}
+
 .rounded-r-lg {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 @media screen and (min-width: 768px) {
@@ -27,5 +36,18 @@
 
   .lg-rounded-tl-none {
     border-top-left-radius: 0px;
+  }
+
+  .lg-rounded-tr-none {
+    border-top-right-radius: 0px;
+  }
+
+  .lg-rounded-bl-none {
+    border-bottom-left-radius: 0px;
+  }
+
+  .lg-rounded-l-lg {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
   }
 }
