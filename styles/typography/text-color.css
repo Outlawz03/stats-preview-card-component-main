@@ -1,0 +1,8 @@
+.text-white {
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
+/*custom*/
+.text-custom {
+  color: var(--color);
+}

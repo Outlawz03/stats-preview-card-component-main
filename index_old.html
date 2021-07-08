@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root {
+      --main-bg-color: #0a0c1b;
+      --main-fg-color: #1c1938;
+      --highlight-color: #a167ce;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-custom text-white font-sans" style="--bg-color: var(--main-bg-color);">
+  <div class="h-full m-auto w-full lg-p-10">
+    <div
+      class="container flex flex-col-reverse justify-between bg-custom m-auto rounded-lg w-full md-w-auto md-flex-row"
+      style="--bg-color: var(--main-fg-color);"
+    >
+      <div class="flex flex-col justify-around text-center mx-auto p-10">
+        <h1 class="text-3xl xl-text-4xl font-bold">Get <span class="text-custom" style="--color: var(--highlight-color);">insights</span> that help your business grow.</h1>
+        <p class="text-xl xl-text-2xl mt-4">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        <div class="flex justify-around mt-10">
+          <div>
+            <p class="text-2xl font-bold tracking-wide">10k+</p>
+            <p class="text-sm uppercase">companies</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold tracking-wide">314</p>
+            <p class="text-sm uppercase">templates</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold tracking-wide">12M+</p>
+            <p class="text-sm uppercase">queries</p>
+          </div>
+        </div>
+      </div>
+      <div class="relative w-full md-w-50p">
+        <img class="md-rounded-r-lg h-full w-full" alt="people doing stuff" src="images/image-header-desktop.jpg"/>
+        <div class="bg-custom absolute w-full h-full inset-0 md-rounded-r-lg opacity-50" style="--bg-color: var(--highlight-color);"></div>
+      </div>
+    </div>     
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mike Botens</a>.
+  </div> 
+</body>
+</html>

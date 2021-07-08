@@ -1,0 +1,51 @@
+.w-80 {
+  width: 20rem;
+}
+
+.w-50p {
+  width: 50%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-custom {
+  width: var(--width);
+}
+
+@media screen and (min-width: 768px) {
+  .md-w-auto {
+    width: auto;
+  }
+
+  .md-w-50 {
+    width: 50%;
+  }
+
+  .md-w-full {
+    width: 100%;
+  }
+
+  .md-w-custom {
+    width: var(--md-width);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg-w-auto {
+    width: auto;
+  }
+
+  .lg-w-50 {
+    width: 50%;
+  }
+
+  .lg-w-full {
+    width: 100%;
+  }
+
+  .lg-w-custom {
+    width: var(--md-width);
+  }
+}

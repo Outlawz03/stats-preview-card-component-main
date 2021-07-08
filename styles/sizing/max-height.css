@@ -1,0 +1,15 @@
+.max-h-custom {
+  max-height: var(--max-height);
+}
+
+@media screen and (min-width: 768px) {
+  .md-max-h-custom {
+    max-height: var(--md-max-height);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg-max-h-custom {
+    max-height: var(--lg-max-height);
+  }
+}

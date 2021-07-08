@@ -7,27 +7,70 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
-
+  <link rel="stylesheet" href="style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    /* global variables */
+    :root {
+      --main-bg-color: #0a0c1b;
+      --main-fg-color: #1c1938;
+      --highlight-color: #a167ce;
+    }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
+<body class="bg-custom" style="--bg-color: var(--main-bg-color);">
+  <div class="h-full m-auto w-custom md-w-full lg-p-10" style="--width: 327px;">
+    <div 
+      class="h-custom w-custom bg-custom rounded-lg mt-custom mb-custom mx-auto md-w-custom md-flex-col md-flex lg-flex-row-reverse lg-justify-center lg-w-full lg-max-w-custom lg-max-h-custom"
+      style="--height: 780px; --width: 327px; --bg-color: var(--main-fg-color); --margin-top: 105px; --margin-bottom: 50px; --md-width: 540px; --lg-max-width: 1100px; --lg-max-height: 446px;"
+    >
+      <div
+        class="w-custom h-custom relative bg-white rounded-t-lg md-w-full md-h-full md-max-w-custom md-max-h-custom lg-rounded-r-lg lg-rounded-tl-none"
+        style="--width: 327px; --height:240px; --md-max-width:540px; --md-max-height:446px;"
+      >
+        <img
+          class="w-custom h-custom rounded-t-lg opacity-75 md-hidden md-w-full md-h-full md-max-w-custom md-max-h-custom lg-rounded-r-lg lg-rounded-tl-none"
+          style="--width: 327px; --height:240px; --md-max-width:540px; --md-max-height:446px;"
+          alt="people doing stuff"
+          src="images/image-header-mobile.jpg"
+        />
+        <img
+          class="hidden  w-custom h-custom rounded-t-lg opacity-75 md-w-full md-h-full md-max-w-custom md-max-h-custom md-block lg-rounded-r-lg lg-rounded-tl-none"
+          style="--width: 327px; --height:240px; --md-max-width:540px; --md-max-height:446px;"
+          alt="people doing stuff"
+          src="images/image-header-desktop.jpg"
+        />
+        <div 
+          class="bg-custom absolute top-0 left-0 z-index-20 w-full h-full mix-blend-multiply opacity-90 rounded-t-lg md-max-h-custom md-max-w-custom lg-rounded-r-lg lg-rounded-tl-none"
+          style="--bg-color: var(--highlight-color); --md-max-width:540px; --md-max-height:446px;"
+        ></div>
+      </div>
+      <div class="text-center w-custom mx-auto md-w-custom lg-text-left" style="--width: 264px; --md-width:400px;">
+        
+        <h1 class="font-sans text-3xl font-bold text-white mt-10 lg-text-4xl lg-mb-5">Get <span class="text-custom" style="--color: var(--highlight-color);">insights</span> that help your business grow.</h1>
+        <p class="font-sans text-white opacity-75 mt-4">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        <div class="h-full mt-10 mb-10 md-flex md-justify-center lg-justify-start lg-mt-20">
+          <div class="mb-8 md-mr-20">
+            <p class="font-sans text-2xl font-bold text-white tracking-wider">10k+</p>
+            <p class="font-sans text-xs text-white opacity-60 tracking-wider mb-2 uppercase">companies</p>
+          </div>
+          <div class="mb-8 md-mr-20">
+            <p class="font-sans text-2xl font-bold text-white tracking-wider">314</p>
+            <p class="font-sans text-xs text-white opacity-60 tracking-wider mb-2 uppercase">templates</p>
+          </div>
+          <div class="mb-8">
+            <p class="font-sans text-2xl font-bold text-white tracking-wider">12M+</p>
+            <p class="font-sans text-xs text-white opacity-60 tracking-wider mb-2 uppercase">queries</p>
+          </div>
+        </div>
+      </div>      
+    </div>     
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Mike Botens</a>.
-  </div>
+  </div> 
 </body>
 </html>

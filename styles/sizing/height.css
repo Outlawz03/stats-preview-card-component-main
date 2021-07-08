@@ -1,0 +1,33 @@
+.h-80 {
+  height: 20rem;
+}
+
+.h-1-2 {
+  height: 50%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-custom {
+  height: var(--height);
+}
+
+@media screen and (min-width: 768px) {
+  .md-h-auto {
+    height: auto;
+  }
+
+  .md-h-50 {
+    height: 50%;
+  }
+
+  .md-h-full {
+    height: 100%;
+  }
+}

@@ -1,0 +1,14 @@
+.p-10 {
+  padding: 2.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .lg-p-10 {
+    padding: 2.5rem;
+  }
+}

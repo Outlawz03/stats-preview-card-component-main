@@ -1,0 +1,52 @@
+.m-auto {
+  margin: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-custom {
+  margin-top: var(--margin-top);
+}
+
+.mb-custom {
+  margin-bottom: var(--margin-bottom);
+}
+
+@media screen and (min-width: 768px) {
+  .md-mr-20 {
+    margin-right: 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg-mt-20 {
+    margin-top: 5rem;
+  }
+  
+  .lg-mb-5 {
+    margin-bottom: 1.25rem;
+  }
+}

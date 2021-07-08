@@ -1,0 +1,9 @@
+:root {
+  --bg-opacity: 1;
+  --text-opacity: 1;
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+  --bp-2xl: 1536px;
+}

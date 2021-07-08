@@ -1,0 +1,23 @@
+.bg-white {
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+}
+
+.bg-gray-900 {
+  background-color: rgba(55, 65, 81, var(--bg-opacity));
+}
+
+.bg-indigo-900 {
+  background-color: rgba(49, 46, 129, var(--bg-opacity));
+}
+
+.bg-purple-700 {
+  background-color: rgba(109, 40, 217, var(--bg-opacity));
+}
+
+.bg-purple-900 {
+  background-color: rgba(91, 33, 182, var(--bg-opacity));
+}
+
+.bg-custom {
+  background-color: var(--bg-color);
+}

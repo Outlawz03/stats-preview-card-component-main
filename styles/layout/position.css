@@ -1,0 +1,129 @@
+.static {
+  position: static;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+}
+
+@media screen and (min-width: 640px) {
+  .sm-static {
+    position: static;
+  }
+  
+  .sm-fixed {
+    position: fixed;
+  }
+  
+  .sm-absolute {
+    position: absolute;
+  }
+  
+  .sm-relative {
+    position: relative;
+  }
+  
+  .sm-sticky {
+    position: sticky;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md-static {
+    position: static;
+  }
+  
+  .md-fixed {
+    position: fixed;
+  }
+  
+  .md-absolute {
+    position: absolute;
+  }
+  
+  .md-relative {
+    position: relative;
+  }
+  
+  .md-sticky {
+    position: sticky;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg-static {
+    position: static;
+  }
+  
+  .lg-fixed {
+    position: fixed;
+  }
+  
+  .lg-absolute {
+    position: absolute;
+  }
+  
+  .lg-relative {
+    position: relative;
+  }
+  
+  .lg-sticky {
+    position: sticky;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl-static {
+    position: static;
+  }
+  
+  .xl-fixed {
+    position: fixed;
+  }
+  
+  .xl-absolute {
+    position: absolute;
+  }
+  
+  .xl-relative {
+    position: relative;
+  }
+  
+  .xl-sticky {
+    position: sticky;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .xl2-static {
+    position: static;
+  }
+  
+  .xl2-fixed {
+    position: fixed;
+  }
+  
+  .xl2-absolute {
+    position: absolute;
+  }
+  
+  .xl2-relative {
+    position: relative;
+  }
+  
+  .xl2-sticky {
+    position: sticky;
+  }
+}
